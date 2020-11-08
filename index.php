@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/parts/inicio.css">
     <link rel="stylesheet" href="/css/fonts.css">
 
-<link rel="stylesheet" href="/css/parts/styles.css">
+    <link rel="stylesheet" href="/css/parts/header.css">
 
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
