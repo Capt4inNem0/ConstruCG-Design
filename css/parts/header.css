@@ -6,22 +6,21 @@ background:#fffffa;
 }
 
 .logo2{
-  width:100px; 
-  height:100px;
+  width:auto; 
+  max-width: 10%;
+  height:100%;
   float:left;
 }
 
 header{
-width:99.3%;
+width: 100%;
 overflow:hidden;
-background-color:#e77728;
-margin-bottom:20px;
-border: black 5px solid;
+background-color: var(--principal);
+border: black 2px solid;
 
 }
 .wrapper{
-  width:100%;
-  max-width:1000px;
+  width:90%;
   margin:auto;
   overflow:hidden;
 }
@@ -63,14 +62,5 @@ header nav a {
 
 .header2 nav {
 	line-height:100px
-}
-
-.contenido{
-	padding-top:105px;
-}
-
-.contenido p{
-  
-  margin-bottom:1em;
 }
 
