@@ -7,12 +7,14 @@
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/parts/inicio.css">
     <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/parts/inicio.css">
+    <link rel="stylesheet" href="/css/parts/styles.css">
 
-<link rel="stylesheet" href="/css/parts/styles.css">
+    
 
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/parts/header.css">
+    <link rel="stylesheet" href="css/parts/contacto.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/styles.css">
     
@@ -26,6 +28,9 @@
         ?>
         <?php
             include(__DIR__."/parts/inicio.php")
+        ?>
+        <?php
+            include(__DIR__."/parts/contacto.php")
         ?>
     </body>
 </html>
