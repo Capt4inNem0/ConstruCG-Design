@@ -32,7 +32,7 @@
             include(__DIR__."/parts/contacto.php")
         ?>
         <?php
-            include(__DIR__."/parts/trabajo.php")
+            include(__DIR__."/parts/trabajos.php")
         ?>
     </body>
 </html>

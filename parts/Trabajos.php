@@ -1,5 +1,5 @@
 <article id="#trabajo">
-<div class="">
+<div class="trabajo">
 	<h2>Trabajos Realizados</h2>
 	
 
