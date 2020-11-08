@@ -28,11 +28,12 @@
         <?php
             include(__DIR__."/parts/inicio.php")
         ?>
+         <?php
+            include(__DIR__."/parts/trabajos.php")
+        ?>
         <?php
             include(__DIR__."/parts/contacto.php")
         ?>
-        <?php
-            include(__DIR__."/parts/trabajos.php")
-        ?>
+       
     </body>
 </html>
