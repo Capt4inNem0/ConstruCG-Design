@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+* {
+    font-family: 'Prata', serif;
+}
+
+h2 {
+    font-size: xxx-large;
+    border-bottom: 3px solid var(--principal);
+    width: fit-content;
+}
+
+p {
+    font-size: x-large;
+}

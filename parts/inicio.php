@@ -26,7 +26,7 @@
         </a>
     </div>
     <div class="nosotros">
-        <h2>Nosotros</h2>
+        <h2>Sobre nosotros</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, esse ducimus consequuntur quo laboriosam labore fuga. Delectus aspernatur eius, id numquam enim, unde iste nostrum, beatae tenetur similique voluptatem fugit.</p>
     </div>
 </article>
