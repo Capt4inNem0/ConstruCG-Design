@@ -15,7 +15,7 @@ border: black 5px solid;
 
 }
 .wrapper{
-  width:90%;
+  width:100%;
   max-width:1000px;
   margin:auto;
   overflow:hidden;
@@ -46,7 +46,7 @@ header nav a {
 }
 
 .header2 {
-  position:fixed;
+  
   height:100px;
 }
 
