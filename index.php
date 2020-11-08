@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/parts/inicio.css">
-
+    <link rel="stylesheet" href="/css/parts/trabajos.css">
 
     <link rel="stylesheet" href="css/parts/header.css">
     <link rel="stylesheet" href="css/parts/contacto.css">
@@ -28,11 +28,12 @@
         <?php
             include(__DIR__."/parts/inicio.php")
         ?>
+         <?php
+            include(__DIR__."/parts/trabajos.php")
+        ?>
         <?php
             include(__DIR__."/parts/contacto.php")
         ?>
-        <?php
-            include(__DIR__."/parts/trabajos.php")
-        ?>
+       
     </body>
 </html>
