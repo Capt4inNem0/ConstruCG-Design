@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="C:/xampp/htdocs/css/parts/styles.css">
 <header class="header2">
   <div class="wrapper">
     <div class="logo"> ConstruCG </div>
