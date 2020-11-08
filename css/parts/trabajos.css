@@ -1,8 +1,17 @@
-.titulo-trabajo{
- position: absolute;
+
+#trabajo > div{
+    margin: 0;
+    position: absolute;
     top: 50%;
     left: 50%;
-    margin:0px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
 
 
+.titulo-trabajo{
+ text-align: center;
+    margin: auto;
+    margin-bottom: 60px;
 }
