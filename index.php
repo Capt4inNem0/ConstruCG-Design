@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="/css/parts/inicio.css">
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
 </head>
     <body>
         <?php
