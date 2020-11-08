@@ -1,5 +1,5 @@
     <?php
-        include(__DIR__."/parts/header.php")
+        include(__DIR__."/controllers/post_manager.php")
     ?>
 <!DOCTYPE html>
 <html lang="es">
