@@ -4,10 +4,10 @@
   <div class="wrapper">
     <div class="logo"> ConstruCG </div>
       <nav >
-        <a href="/htdocs/parts/nosotros"> Nosotros </a>   
-        <a href="/htdocs/parts/trabajos">  Trabajos Realizados </a>
-        <a href="/htdocs/parts/presupuesto"> Presupuesto  Online</a>
-        <a href="/htdocs/parts/contacto"> Contacto  </a>
+        <a href="#nosotros"> Nosotros </a>   
+        <a href="#trabajos">  Trabajos Realizados </a>
+        <a href="#presupuesto"> Presupuesto  Online</a>
+        <a href="#contacto"> Contacto  </a>
       </nav>
     </div>
 </header>
