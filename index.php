@@ -1,3 +1,6 @@
+    <?php
+        include(__DIR__."/parts/header.php")
+    ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
