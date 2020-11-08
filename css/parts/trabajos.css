@@ -10,8 +10,8 @@
 }
 
 
-.titulo-trabajo{
- text-align: center;
+#trabajo h2 {
+    text-align: center;
     margin: auto;
     margin-bottom: 60px;
 }
