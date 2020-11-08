@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="/css/parts/inicio.css">
     <link rel="stylesheet" href="/css/fonts.css">
 
+<link rel="stylesheet" href="/css/parts/styles.css">
+
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/styles.css">
     
     <script src="/js/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
-    
+ 
 </head>
     <body>
         <?php
