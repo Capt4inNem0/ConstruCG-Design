@@ -5,6 +5,11 @@ body{
 background:#fffffa;
 }
 
+.logo2{
+  width:100px; 
+  height:100px;
+  float:left;
+}
 
 header{
 width:99.3%;
