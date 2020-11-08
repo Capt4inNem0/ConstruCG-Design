@@ -34,5 +34,8 @@
         <?php
             include(__DIR__."/parts/contacto.php")
         ?>
+        <?php
+            include(__DIR__."/parts/trabajo.php")
+        ?>
     </body>
 </html>
