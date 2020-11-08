@@ -1,5 +1,7 @@
+/* Aca van los estilos generales */
+
 :root{
-    --principal: #FFD151;
+    --principal: #FFD151; /* Esta es una variable, para usar ese color usar var(--principal) */
 }
 
 * {
