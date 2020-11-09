@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="css/parts/header.css">
     <link rel="stylesheet" href="css/parts/contacto.css">
+    <link rel="stylesheet" href="/css/parts/presupuesto.css">
     
     <script src="/js/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
@@ -30,6 +31,9 @@
         ?>
          <?php
             include(__DIR__."/parts/trabajos.php")
+        ?>
+        <?php
+            include(__DIR__."/parts/presupuesto.php")
         ?>
         <?php
             include(__DIR__."/parts/contacto.php")

@@ -1,5 +1,5 @@
 <article id="contacto">
-    <div class="mr-auto">
+    <div class="centrado">
         <h2>Contacto</h2>
         <form action="" method="post">
             <label for="nombre">Nombre</label>
