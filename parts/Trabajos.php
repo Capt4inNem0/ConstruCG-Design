@@ -9,7 +9,7 @@
 
      <img class="pcweb" src="/imagenes/logo.png">
      <br/><br/><br/>
-     <p class="paginas">Hola mundo</p>
+     <p class="paginas">Hola mundoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
 </div>
 
 
