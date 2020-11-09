@@ -20,6 +20,7 @@
 }
 
 .item{
+	 height:10%;
 	margin:1em;
 	color:black;
 	float:left;
@@ -27,7 +28,7 @@
     padding-left:10%;
     padding-right:10%;
     padding-top:2%;
-    height:20%;
+    
 }
 .pcweb{
 	

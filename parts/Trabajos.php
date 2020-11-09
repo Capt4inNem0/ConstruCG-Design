@@ -12,7 +12,7 @@
 </div>
 
 
-<p class="paginas">Hola mundo</p>
+<p class="paginas">Hola mundoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa xd</p>
 
 
 
