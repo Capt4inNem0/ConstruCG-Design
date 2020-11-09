@@ -1,9 +1,25 @@
 /* Acá va todos los estilos para la primera pagina */
 
 #nosotros .carousel {
-    background-color: magenta;
+    background-color: transparent;
     height: 50vh;
     width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.carousel .carousel-item, .carousel-inner{
+    height: 100%;
+}
+
+.carousel img{
+    height: 100%;
+    width: auto !important;
+    margin: auto;
+}
+
+.carousel{
+    overflow: hidden;
 }
 
 #nosotros .nosotros{
@@ -11,4 +27,6 @@
     height: 50vh;
     width: 100%;
 }
+
+
 
