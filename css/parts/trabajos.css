@@ -19,35 +19,25 @@
     margin-bottom: 60px;
 }
 
-.item{
-	 height:10%;
-	margin:1em;
-	color:black;
-	float:left;
-	background-color:red;
-    padding-left:10%;
-    padding-right:10%;
-    padding-top:2%;
-    
-}
-.pcweb{
-	
-	height:20%;
+div.noticia {
+  width: 50%;
+  margin: 20px auto;
+  background-color:white;
+  color:black;
+  padding: 15px;
 }
 
-.Paginaweb{
-font-family:Candara;
-margin-left:25%;
-margin-right:25%;
+div.noticia img.izquierda {
+  float: left;
+  margin-right: 15px;
 }
 
-
-.paginas {
-	margin:1em;
-	color:black;
-	float:right;
-	background-color:white;
-    padding-left:10%;
-    padding-right:10%;
-    padding-top:2%;
+div.noticia img.derecha {
+  float: right;
+  margin-left: 15px;
 }
+
+div.reset {
+  clear: both;
+}
+
