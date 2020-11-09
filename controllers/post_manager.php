@@ -4,7 +4,6 @@
 		Hacer que salga una ventana emergente que avise de errores
 		en el formulario.
 		Separar Nombre y apellido.
-		Agregar la variable "consulta"
 		Reforzar la parte de "consulta" y Nombre y apellido 
 		para evitar un ataque de mierda o mejor llamado XSS.
 		Arreglar una cosa tocahuevos que al recargar la pagina con F5,
@@ -41,8 +40,18 @@
 				$email = $_POST["email"];
 			}
 		}
+		
+		if (empty($_POST["consulta"]))
+		{
+			echo "Y para que mierda me contactas si no decis nada? facho socialista";
+		}
+		else 
+		{
+			$consulta = $_POST["consulta"];
+		}
 		unset($_POST["nombre"]);
 		unset($_POST["apellido"]);
 		unset($_POST["email"]);
+		unset($_POST["consulta"]);
     }
 ?>
