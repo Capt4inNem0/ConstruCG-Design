@@ -18,3 +18,24 @@
     margin: auto;
     margin-bottom: 60px;
 }
+
+.item{
+	margin:1em;
+	color:black;
+	float:left;
+	background-image:url(../imagenes/Fondo-inicio.png);
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:2%;
+
+}
+.pcweb{
+	
+	height:100px;
+}
+
+.Paginaweb{
+font-family:Candara;
+margin-left:25%;
+margin-right:25%;
+}
