@@ -1,18 +1,18 @@
 <article id="trabajo">
-  <div class="trabajo2">
+  <div class="centrado">
 
 
 	<h2>Trabajos Realizados</h2>
 
    <div class="contenedor12">
-   	<div>1</div>
-    <div>2</div> 
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
+   	<div><img src="/htdocs/imagenes/carousel/1.png"></div>
+    <div> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, esse ducimus consequuntur quo laboriosam labore fuga.</p></div> 
+    <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, esse ducimus consequuntur quo laboriosam labore fuga.</p></div>
+    <div><img src="/htdocs/imagenes/carousel/1.png"></div>
+    <div><img src="/htdocs/imagenes/carousel/1.png"></div>
+    <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, esse ducimus consequuntur quo laboriosam labore fuga.</p></div>
 
 
    </div>
-
+</div>
 </article>
