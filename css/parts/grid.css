@@ -1,0 +1,6 @@
+.contenedor12{
+	display:grid;
+	grid-template-columns:15% 20%;
+	grid-template-rows: 150px 150px;
+	grid-gap:50px;
+}
