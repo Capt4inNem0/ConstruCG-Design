@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/parts/inicio.css">
     <link rel="stylesheet" href="/css/parts/trabajos.css">
-
+    <link rel="stylesheet" href="/css/parts/grid.css">
     <link rel="stylesheet" href="/css/alarma.css">
 
     <link rel="stylesheet" href="css/parts/header.css">

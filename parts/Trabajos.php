@@ -3,23 +3,16 @@
 
 
 	<h2>Trabajos Realizados</h2>
-	
-<div class="noticia">
-  <img class="izquierda" src="http://orig11.deviantart.net/46ea/f/2010/018/7/5/avatar_by_chiron178.png">
-  <aside>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, esse ducimus consequuntur quo</aside>
-  <div class="reset"></div>
-</div>
 
-<div class="noticia">
-  <img class="derecha" src="http://orig12.deviantart.net/e92b/f/2008/027/e/5/looks_like_fun_by_g_t_x.gif">
-  <aside>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, esse ducimus consequuntur quo</aside>
-  <div class="reset"></div>
-</div>
+   <div class="contenedor-trabajo">
+   	<div>1</div>
+    <div>2</div> 
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
 
-<div class="noticia">
-  <aside>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, esse ducimus consequuntur quo.</aside>
-  <div class="reset"></div>
-</div>
-
+   </div>
 
 </article>

@@ -19,25 +19,10 @@
     margin-bottom: 60px;
 }
 
-div.noticia {
-  width: 50%;
-  margin: 20px auto;
-  background-color:white;
-  color:black;
-  padding: 15px;
-}
 
-div.noticia img.izquierda {
-  float: left;
-  margin-right: 15px;
-}
 
-div.noticia img.derecha {
-  float: right;
-  margin-left: 15px;
+.contenedor-trabajo{
+  width:90%;
+  max-width:1000px;
+  border:10px solid black;
 }
-
-div.reset {
-  clear: both;
-}
-
