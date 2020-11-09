@@ -8,10 +8,11 @@
 <div class="item" > 
 
      <img class="pcweb" src="/imagenes/logo.png">
-     <br/><br/><br/>
-     <p class="paginas">Hola mundoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+     <br/><br/><br/>     
 </div>
 
+
+<p class="paginas">Hola mundo</p>
 
 
 

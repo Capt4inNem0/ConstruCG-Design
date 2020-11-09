@@ -39,3 +39,14 @@ font-family:Candara;
 margin-left:25%;
 margin-right:25%;
 }
+
+
+.paginas {
+	margin:1em;
+	color:black;
+	float:right;
+	background-color:white;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:2%;
+}
