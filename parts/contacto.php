@@ -1,7 +1,7 @@
 <article id="contacto">
     <div class="centrado">
         <h2>Contacto</h2>
-        <form action="" method="post">
+        <form action="#contacto" method="post">
             <label for="nombre">Nombre</label>
             <label for="apellido">Apellido</label>
 

@@ -1,6 +1,4 @@
-    <?php
-        include(__DIR__."/controllers/post_manager.php")
-    ?>
+    
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,6 +11,8 @@
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/parts/inicio.css">
     <link rel="stylesheet" href="/css/parts/trabajos.css">
+
+    <link rel="stylesheet" href="/css/alarma.css">
 
     <link rel="stylesheet" href="css/parts/header.css">
     <link rel="stylesheet" href="css/parts/contacto.css">
@@ -41,3 +41,6 @@
        
     </body>
 </html>
+<?php
+    include(__DIR__."/controllers/post_manager.php")
+?>

@@ -1,8 +1,12 @@
 <?php
+	include_once "alarma.php";
 	/*
+		Listorti:
+			Hacer que salga una ventana emergente que avise de errores en el formulario.
+			(Ver alarma.php, también añadí trabas desde el frontend)
+
 		TODO:
-		Hacer que salga una ventana emergente que avise de errores
-		en el formulario.
+
 		Separar Nombre y apellido.
 		Reforzar la parte de "consulta" y Nombre y apellido 
 		para evitar un ataque de mierda o mejor llamado XSS.
@@ -13,7 +17,7 @@
     if ($_POST) {
         if ((empty($_POST["nombre"])) && (empty($_POST["apellido"])))
 		{
-			echo "Ingrese algun Nombre y/o Apellido. No seas trolo man\n";
+			display_error("Dale papu media pila pone un nombre", 6);
 		}
 		else 
 		{
