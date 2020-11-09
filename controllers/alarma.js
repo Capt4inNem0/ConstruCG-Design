@@ -62,6 +62,6 @@ function loadAlert(message, timeout) {
     disableScroll();
     blurAll();
     $('#errorbox').css('display', 'block');
-    $('#errorbox-text').text(message.toString());
+    $('#errorbox-text').html(message);
     setTimeout(closeAlert, parseInt(timeout)*1000);
 }

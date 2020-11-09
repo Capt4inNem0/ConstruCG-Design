@@ -3,7 +3,7 @@
 	/*
 		Listorti:
 			Hacer que salga una ventana emergente que avise de errores en el formulario.
-			(Ver alarma.php, también añadí trabas desde el frontend)
+			(Ver alarma.php y la funcion sum Error de aca abajo)
 
 		TODO:
 
@@ -14,15 +14,24 @@
 		aun se siga enviando el formulario (maldito _POST).
 		Ian se la come (no es algo que hacer, solo lo reafirmo).
 	*/
+
+	$errores = "";
+
+	function sumError(String $var = "")
+	{
+		global $errores;
+		$errores = $errores.$var." <br> ";
+	}
+
     if ($_POST) {
         if ((empty($_POST["nombre"])) && (empty($_POST["apellido"])))
 		{
-			display_error("Dale papu media pila pone un nombre", 6);
+			sumError("- Dale pa pone bien el nombre");
 		}
 		else 
 		{
 			if ((!preg_match("/^[a-zA-Z]+/", $_POST["nombre"])) && (!preg_match("/^[a-zA-Z]+/", $_POST["apellido"]))) {
-				echo "Que trolo sos man. No jugues con los caracteres";
+				sumError("- Te esta dando un acv o tocaste cualquier cosa?");
 			}
 			else
 			{
@@ -32,12 +41,12 @@
 		}
 		
 		if (empty($_POST["email"])) {
-			echo "El email es requerido pedazo de gil\n";
+			sumError("- El email es requerido pedazo de gil");
 		} 
 		else 
 		{
 			if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $_POST["email"])) {
-				echo "Formato de email incorrecto imbecil hincha de Racing\n";
+				sumError("- Dale amargo ni el email sabes escribir bien");
 			}
 			else
 			{
@@ -47,12 +56,13 @@
 		
 		if (empty($_POST["consulta"]))
 		{
-			echo "Y para que mierda me contactas si no decis nada? facho socialista";
+			sumError("- Ay mirala se hace la dificil, manda mensajes vacios, toxica de mierda");
 		}
 		else 
 		{
 			$consulta = $_POST["consulta"];
 		}
+		display_error($errores, 10);
 		unset($_POST["nombre"]);
 		unset($_POST["apellido"]);
 		unset($_POST["email"]);

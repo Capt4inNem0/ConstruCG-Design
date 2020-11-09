@@ -21,7 +21,7 @@
     echo($model);
 
 
-    function display_error($mensaje, $persistencia){
+    function display_error($mensaje, $persistencia = 60*69){
         echo("<script>loadAlert('$mensaje', $persistencia)</script>");
     }
 
