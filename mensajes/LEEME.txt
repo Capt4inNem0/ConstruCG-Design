@@ -1,0 +1,8 @@
+Este archivo DEBE ser borrado para evitar conflictos futuros.
+Lo que me importa es la creacion de esta carpeta.
+
+Cada vez que el formulario de Contacto es enviado con exito,
+se crea un txt con el nombre, apellido, email y la consulta
+de la persona que hizo la consulta (Dah!).
+
+BORRAME LA CONCHA DE TU MINA
