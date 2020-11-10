@@ -18,8 +18,6 @@
 	*/
 
 	$errores = "";
-	
-	$_RightCheck = array(false, false, false);
 
 	function sumError(String $var = "")
 	{
@@ -41,7 +39,6 @@
 			{
 				$nombre = $_POST["nombre"];
 				$apellido = $_POST["apellido"];
-				$_RightCheck[0] = true;
 			}
 		}
 		
@@ -56,7 +53,6 @@
 			else
 			{
 				$email = $_POST["email"];
-				$_RightCheck[1] = true;
 			}
 		}
 		
@@ -67,24 +63,19 @@
 		else 
 		{
 			$consulta = $_POST["consulta"];
-			$_RightCheck[2] = true;
 		}
-		if ($errores != "") display_error($errores, 10);
 		
-		$_BoolArraySize = sizeof($_RightCheck);
-		
-		for ($i=0 ; $i<$_BoolArraySize ; $i++)
+		if ($errores != "") {
+			display_error($errores, 10);
+		}
+		else
 		{
-			if ($_RightCheck[$i] == false) break;
-			if (($_RightCheck[$_BoolArraySize - 1]) && ($i == $_BoolArraySize - 1))
-			{
-				$file = fopen("mensajes/$nombre"."_$apellido.txt","w");
-				fwrite($file,"Nombre y Apellido: ".$nombre." ".$apellido);
-				fwrite($file,"\nEmail: ".$email);
-				fwrite($file,"\nMensaje:\n  ".$consulta);
+			$file = fopen("mensajes/$nombre"."_$apellido.txt","w");
+			fwrite($file,"Nombre y Apellido: ".$nombre." ".$apellido);
+			fwrite($file,"\nEmail: ".$email);
+			fwrite($file,"\nMensaje:\n  ".$consulta);
 				
-				fclose($file);
-			}
+			fclose($file);
 		}
 		unset($_POST["nombre"]);
 		unset($_POST["apellido"]);
