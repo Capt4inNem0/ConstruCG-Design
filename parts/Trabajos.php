@@ -10,7 +10,7 @@
   </div>
 
   <div class = "contenedor">
-    <div> <h3>Colocacion de baldosas</h3> </div>
+    <div>                                 </div>
     <div>                                 </div>
     <div>                                 </div>
     <div>            <img src="https://www.construmatica.com/img/business/products/126433/adhesivos.png">         </div>
