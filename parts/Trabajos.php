@@ -10,12 +10,12 @@
   </div>
 
   <div class = "contenedor">
+    <div> <h3>Colocacion de baldosas</h3> </div>
     <div> <img src="imagenes/pcweb.png">  </div>
     <div> <img src="imagenes/pcweb.png">  </div>
     <div> <img src="imagenes/pcweb.png">  </div>
-    <div> <h3>PRESENCIA</h3> </div>
-    <div> <h3>NEGOCIO</h3> </div>
-    <div> <h3>TIENDA ONLINE</h3>  </div>
+    <div> <h3>Pintura</h3> </div>
+    <div> <h3>colocacion Durlock</h3>  </div>
     <div> <p>Consigue una presencia profesional en Internet y genera nuevos contactos.</p> </div>
     <div> <p>Lleva tu empresa a nuevos mercados con un sitio web completo y eficaz.</p>  </div>
     <div> <p>Multiplica tus ventas con una tienda online y llega a más clientes.</p> </div>
