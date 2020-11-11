@@ -1,15 +1,4 @@
-#trabajo {
-    position: relative;
 
-}
-
-
-
-#trabajo h2 {
- text-align: center;
-    margin: auto;
-    margin-bottom: 60px;
-}
 
 
 .header p {
@@ -17,7 +6,7 @@
     font-size:50px;
     text-align:center;
     padding:20px 0;    
-}
+}s
 
 .contenedor{
     width:90%;
