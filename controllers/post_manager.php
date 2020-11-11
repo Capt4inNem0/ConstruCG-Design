@@ -13,6 +13,8 @@
 		Arreglar una cosa tocahuevos que al recargar la pagina con F5,
 		aun se siga enviando el formulario (maldito _POST).
 		Ian se la come (no es algo que hacer, solo lo reafirmo).
+		Agregar Fecha y hora al archivo generado para diferenciar de personas
+		que tengan mismo nombre y apellido (se sobrescriben unos a otros).
 	*/
 
 	$errores = "";
@@ -62,7 +64,19 @@
 		{
 			$consulta = $_POST["consulta"];
 		}
-		display_error($errores, 10);
+		
+		if ($errores != "") {
+			display_error($errores, 10);
+		}
+		else
+		{
+			$file = fopen("mensajes/$nombre"."_$apellido.txt","w");
+			fwrite($file,"Nombre y Apellido: ".$nombre." ".$apellido);
+			fwrite($file,"\nEmail: ".$email);
+			fwrite($file,"\nMensaje:\n  ".$consulta);
+				
+			fclose($file);
+		}
 		unset($_POST["nombre"]);
 		unset($_POST["apellido"]);
 		unset($_POST["email"]);
