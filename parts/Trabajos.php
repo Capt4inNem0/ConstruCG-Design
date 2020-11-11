@@ -11,21 +11,30 @@
 
   <div class = "contenedor">
     <div> <h3>Colocacion de baldosas</h3> </div>
-    <div> <img src="imagenes/pcweb.png">  </div>
-    <div> <img src="imagenes/pcweb.png">  </div>
-    <div> <img src="imagenes/pcweb.png">  </div>
-    <div> <h3>Pintura</h3> </div>
-    <div> <h3>colocacion Durlock</h3>  </div>
-    <div> <p>Consigue una presencia profesional en Internet y genera nuevos contactos.</p> </div>
-    <div> <p>Lleva tu empresa a nuevos mercados con un sitio web completo y eficaz.</p>  </div>
-    <div> <p>Multiplica tus ventas con una tienda online y llega a más clientes.</p> </div>
-    <div> <h5>Precio Unico Anual </br>  $4.490 </br> Pesos Argentinos </h5> <p></br> Tu nombre en Internet Diseño de 1 sitio con 1 página 1 cuenta de correo</p> </div>
+    <div>                                 </div>
+    <div>                                 </div>
+    <div>            <img src="https://www.construmatica.com/img/business/products/126433/adhesivos.png">         </div>
+    <div>                        </div>
+    <div> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, esse ducimus consequuntur quo laboriosam labore fuga. Delectus aspernatur eius, id numquam enim, unde iste nostrum, beatae tenetur similique voluptatem fugit.</p>  </div>
 
-    <div> <h5>Precio Unico Anual </br>$9.578</br> Pesos Argentinos</h5> <p>     </br>Tu nombre en Internet Diseño de 1 sitio con 5 páginas 5 cuentas de correo</p> </div>
+     
 
-    <div> <h5>Precio Unico Anual </br> $15.490 </br> Pesos Argentinos </h5><p></br>< Tu nombre en Internet info Diseño de 1 sitio con tienda online 20 cuentas de correo </p> </div>
+    <div>  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, esse ducimus consequuntur quo laboriosam labore fuga. Delectus aspernatur eius, id numquam enim, unde iste nostrum, beatae tenetur similique voluptatem fugit.</p>  </div>
+    <div>                                </div>
+    <div> <img src="https://www.construmatica.com/img/business/products/126433/adhesivos.png"> </div>
+
+
+
+
+    <div> <img src="https://www.construmatica.com/img/business/products/126433/adhesivos.png">   </div>
+
+    <div>                                  </div>
+
+    <div> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, esse ducimus consequuntur quo laboriosam labore fuga. Delectus aspernatur eius, id numquam enim, unde iste nostrum, beatae tenetur similique voluptatem fugit.</p> </div>
   </div>
 
    </div>
 </div>
+
+
 </article>

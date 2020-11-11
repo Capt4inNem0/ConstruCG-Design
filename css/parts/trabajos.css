@@ -28,7 +28,8 @@
 
 
 .contenedor > div > img {
-    width:50%;
+    width:60%;
+    margin:auto;
 
 }
 
@@ -64,7 +65,7 @@ width:100%;
 
 .contenedor{
   display:grid;
-  grid-template-columns:32% 32% 32% ;
-  grid-template-rows:100px 20px 130px;
+  grid-template-columns:30% 30% 30% ;
+  grid-template-rows:100px 400px 400px;
     grid-gap:50px;
 }
